@@ -12,8 +12,6 @@ public class Peg extends Stack<Integer> {
     private char name;
     
     /*
-     * Pre: None
-     * Post:
      * - Constructs an empty Peg storing given label
      */
     public Peg(char name) {
@@ -21,8 +19,6 @@ public class Peg extends Stack<Integer> {
     } // end of constructor
     
     /*
-     * Pre: None
-     * Post:
      * - Returns the Peg's label
      */
     public char getName() {
@@ -30,9 +26,6 @@ public class Peg extends Stack<Integer> {
     } // end of getName method
     
     /*
-     * Pre:
-     * - None
-     * Post:
      * - Returns a String representing the disk stored on the Peg at given index
      */
     public String diskToString(int index) {
