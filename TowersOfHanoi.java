@@ -23,8 +23,6 @@ public class TowersOfHanoi {
     } // end of main method
     
     /*
-     * Pre: None
-     * Post:
      * - Creates multiple Towers of Hanoi with the user,
      *   from user input gathered by given Scanner
      * - Solves puzzle using given pegs, and relays
@@ -45,8 +43,6 @@ public class TowersOfHanoi {
     } // end of play method
     
     /*
-     * Pre: None
-     * Post:
      * - Acquires a value of at least 1 from the user
      * - Sets the tower height field to given integer
      */
@@ -76,8 +72,6 @@ public class TowersOfHanoi {
     } // end of setHeight method
     
     /*
-     * Pre: None
-     * Post:
      * - Introduces the puzzle & its rules to the user
      */
     public static void intro() {
@@ -104,8 +98,6 @@ public class TowersOfHanoi {
     } // end of intro method
     
     /*
-     * Pre: None
-     * Post:
      * - Solves a single Towers of Hanoi puzzle using given pegs
      * - Prints solution to given output location
      */
@@ -123,8 +115,6 @@ public class TowersOfHanoi {
     } // end of solve method
     
     /*
-     * Pre: None
-     * Post:
      * - Resets the Towers of Hanoi so that all the disks are stacked on peg A, decreasing in size from bottom to top, and pegs B and C are empty
      */
     public static void reset(Peg[] pegs) {
@@ -139,8 +129,6 @@ public class TowersOfHanoi {
     } // end of reset method
     
     /*
-     * Pre: None
-     * Post:
      * - Solves the Towers of Hanoi puzzle for given Peg setup
      * - Prints step-by-step instructions, and a visual representation
      *   of the puzzle-solving process, to the given output location
@@ -158,8 +146,6 @@ public class TowersOfHanoi {
     } // end of move method
     
     /*
-     * Pre: None
-     * Post:
      * - Prints the given pegs in order
      * - Prints a visual representation of the disks
      *   on each given peg to the given output location
@@ -199,8 +185,6 @@ public class TowersOfHanoi {
     } // end of printPegs method
     
     /*
-     * Pre: None
-     * Post:
      * - Centers the given String in the given space size
      * - Prints centered String to the given output
      */
@@ -213,8 +197,6 @@ public class TowersOfHanoi {
     } // end of printCentered method
     
     /*
-     * Pre: None
-     * Post:
      * - Acquires a [y]es/[n]o answer from the user
      * - Returns a boolean representing the user's response
          (yeah -> true, nah -> false)
